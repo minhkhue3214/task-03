@@ -3,7 +3,6 @@ const app = express();
 const tasks = require('./routes/task')
 
 const port = 3000
-
 //Middleware
 app.use(express.json())
 
